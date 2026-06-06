@@ -1,0 +1,31 @@
+
+=== REAL-WORLD MCP TOOL DESCRIPTION GENERALIZATION RESULTS ===
+Evaluation date: 2026-05-26
+Model: MCP Detector (XGBoost + all-mpnet-base-v2, Platt-calibrated, t=0.3800)
+Holdout set: 154 samples (92 real benign MCP tools
+             + 62 adversarial variants)
+Source: 10 public GitHub MCP server repositories (MIT/Apache-2.0)
+
+OVERALL METRICS
+  AUC:          0.7635
+  F1:           0.6316
+  Recall:       0.6774
+  Precision:    0.5915
+  FPR (real):   0.3152
+  Avg latency:  6.0 ms/sample
+
+PER-PAYLOAD-TYPE RECALL / ASR
+  base64_partial             Recall=0.9000  ASR=0.1000  (N=10)
+  direct_override            Recall=0.3636  ASR=0.6364  (N=11)
+  exfiltration               Recall=0.6364  ASR=0.3636  (N=11)
+  leetspeak                  Recall=0.6000  ASR=0.4000  (N=10)
+  mathematical               Recall=0.7000  ASR=0.3000  (N=10)
+  role_injection             Recall=0.9000  ASR=0.1000  (N=10)
+
+COMPARISON TO SYNTHETIC TEST SET
+  Metric        Synthetic    Real-world    Delta
+  AUC           0.9155       0.7635       -0.1520
+  Recall        0.8039       0.6774       -0.1265
+  Precision     0.7675       0.5915       -0.1760
+  F1            0.7853       0.6316       -0.1537
+  FPR           0.1560       0.3152       +0.1592

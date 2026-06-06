@@ -1,0 +1,1291 @@
+{
+  "collection_date": "2026-05-26",
+  "method": "Direct raw file download from raw.githubusercontent.com",
+  "note": "Real MCP tool descriptions extracted from public MIT/Apache-2.0 licensed MCP server repositories. Academic research use only.",
+  "metadata": [
+    {
+      "repo": "executeautomation/mcp-playwright",
+      "licence": "mit/apache-2.0",
+      "tools": 42
+    },
+    {
+      "repo": "punkpeye/fastmcp",
+      "licence": "mit/apache-2.0",
+      "tools": 28
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "licence": "mit/apache-2.0",
+      "tools": 23
+    },
+    {
+      "repo": "rusiaaman/wcgw",
+      "licence": "mit/apache-2.0",
+      "tools": 7
+    },
+    {
+      "repo": "simonb97/win-cli-mcp-server",
+      "licence": "mit/apache-2.0",
+      "tools": 22
+    },
+    {
+      "repo": "anaisbetts/mcp-youtube",
+      "licence": "mit/apache-2.0",
+      "tools": 1
+    },
+    {
+      "repo": "github/github-mcp-server",
+      "licence": "mit/apache-2.0",
+      "tools": 22
+    },
+    {
+      "repo": "microsoft/playwright-mcp",
+      "licence": "mit/apache-2.0",
+      "tools": 4
+    },
+    {
+      "repo": "varunneal/spotify-mcp",
+      "licence": "mit/apache-2.0",
+      "tools": 2
+    },
+    {
+      "repo": "vercel/mcp-adapter",
+      "licence": "mit/apache-2.0",
+      "tools": 3
+    }
+  ],
+  "tools": [
+    {
+      "text": "Start a new code generation session to record Playwright actions",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "start_codegen_session",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "End a code generation session and generate the test file",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "end_codegen_session",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get information about a code generation session",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "get_codegen_session",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Clear a code generation session without generating a test",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "clear_codegen_session",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Take a screenshot of the current page or a specific element",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_screenshot",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Click an element on the page",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_click",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Click an element in an iframe on the page",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_iframe_click",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Fill an element in an iframe on the page",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_iframe_fill",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "fill out an input field",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_fill",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Select an element on the page with Select tag",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_select",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Hover an element on the page",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_hover",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Upload a file to an input[type=",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_upload_file",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Execute JavaScript in the browser console",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_evaluate",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Retrieve console logs from the browser with filtering options",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_console_logs",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Resize the browser viewport using manual dimensions or device presets. Supports 143+ device presets including iPhone, iPad, Android devices, and desktop browsers with proper user-agent and touch emulation.",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_resize",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Close the browser and release all resources",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_close",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Perform an HTTP GET request",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_get",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Perform an HTTP POST request",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_post",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Perform an HTTP PUT request",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_put",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Perform an HTTP PATCH request",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_patch",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Perform an HTTP DELETE request",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_delete",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Ask Playwright to start waiting for a HTTP response. This tool initiates the wait operation but does not wait for its completion.",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_expect_response",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Wait for and validate a previously initiated HTTP response wait operation.",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_assert_response",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Set a custom User Agent for the browser",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_custom_user_agent",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get the visible text content of the current page",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_get_visible_text",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get the HTML content of the current page. By default, all <script> tags are removed from the output unless removeScripts is explicitly set to false.",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_get_visible_html",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Navigate back in browser history",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_go_back",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Navigate forward in browser history",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_go_forward",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Drag an element to a target location",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_drag",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Press a keyboard key",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_press_key",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Save the current page as a PDF file",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_save_as_pdf",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Click a link and switch to the newly opened tab",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_obj_name_desc",
+      "tool_name": "playwright_click_and_switch_tab",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Run browser in headless mode (default: false)",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Save screenshot as PNG file (default: false)",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "CSS selector for the file input element",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Absolute path to the file to upload",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "JavaScript code to execute",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Text to search for in logs (handles text with square brackets)",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "URL to perform GET operation",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "URL to perform DELETE operation",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "CSS selector for the target location",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Name of the PDF file (default: page.pdf)",
+      "source": "executeautomation/mcp-playwright",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "`import { FastMCP } from \"fastmcp\"`",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "FastMCP",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "`import { EdgeFastMCP } from \"fastmcp/edge\"`",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "EdgeFastMCP",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "stdio, httpStream, SSE",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "Transport",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Stateful or stateless",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "Sessions",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Built-in `authenticate` option",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "OAuth/Authentication",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "If true, indicates the tool does not modify its environment",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "false",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "If true, the tool may perform destructive updates (only meaningful when `readOnlyHint` is false)",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "true",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "If true, calling the tool repeatedly with the same arguments has no additional effect (only meaningful when `readOnlyHint` is false)",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "false",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "If true, the tool may interact with an \"open world\" of external entities",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "true",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Any OAuth 2.0 provider",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_table",
+      "tool_name": "fastmcp",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- Simple Tool, Resource, Prompt definition",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Features",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Configure your `wrangler.toml`:",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Deployment",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "[Tools](https://modelcontextprotocol.io/docs/concepts/tools) in MCP allow servers to expose executable functions that can be invoked by clients and used by LLMs to perform actions.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Tools",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Tools can log messages to the client using the `log` object in the context object:",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Logging",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The errors that are meant to be shown to the user should be thrown as `UserError` instances:",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Errors",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Tools can report progress by calling `reportProgress` in the context object:",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Progress",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "[Resources](https://modelcontextprotocol.io/docs/concepts/resources) represent any kind of data that an MCP server wants to make available to clients. This can include:",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Resources",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "[Prompts](https://modelcontextprotocol.io/docs/concepts/prompts) enable servers to define reusable prompt templates and workflows that clients can easily surface to users and LLMs. They provide a powerful way to standardize and share common LLM interactions.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Prompts",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "FastMCP supports OAuth 2.1 authentication with pre-configured providers, allowing you to secure your server with minimal setup.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Authentication",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The `session` object is an instance of `FastMCPSession` and it describes active client sessions.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Sessions",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "`FastMCPSession` represents a client session and provides methods to interact with the client.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "FastMCPSession",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "`requestSampling` creates a [sampling](https://modelcontextprotocol.io/docs/concepts/sampling) request and returns the response.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "requestSampling",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "`requestSampling` accepts an optional second parameter for request options:",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Options",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The `clientCapabilities` property contains the client capabilities.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "clientCapabilities",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The `loggingLevel` property describes the logging level as set by the client.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "loggingLevel",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The `roots` property contains the roots as set by the client.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "roots",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The `server` property contains an instance of MCP server that is associated with the session.",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "server",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- FastMCP is inspired by the [Python implementation](https://github.com/jlowin/fastmcp) by [Jonathan Lowin](https://github.com/jlowin).",
+      "source": "punkpeye/fastmcp",
+      "method": "readme_heading",
+      "tool_name": "Acknowledgements",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Read the complete contents of a file as text. DEPRECATED: Use read_text_file instead.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Read the complete contents of a file from the file system as text.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Read an image or audio file. Returns the base64 encoded data and MIME type.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Read the contents of multiple files simultaneously. This is more",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Create a new file or completely overwrite an existing file with new content.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Make line-based edits to a text file. Each edit replaces exact line sequences",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Create a new directory or ensure a directory exists. Can create multiple",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get a detailed listing of all files and directories in a specified path.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get a detailed listing of all files and directories in a specified path, including sizes.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get a recursive tree view of files and directories as a JSON structure.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Move or rename files and directories. Can move files between directories",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Recursively search for files and directories matching a pattern.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Retrieve detailed metadata about a file or directory. Returns comprehensive",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Returns the list of directories that this server is allowed to access.",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Create multiple new entities in the knowledge graph",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Create multiple new relations between entities in the knowledge graph. Relations should be in active voice",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Delete multiple entities and their associated relations from the knowledge graph",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Delete specific observations from entities in the knowledge graph",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Delete multiple relations from the knowledge graph",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Read the entire knowledge graph",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Search for nodes in the knowledge graph based on a query",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Add new observations to existing entities in the knowledge graph",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_schema_desc",
+      "tool_name": "Add Observations",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Open specific nodes in the knowledge graph by their names",
+      "source": "modelcontextprotocol/servers",
+      "method": "ts_schema_desc",
+      "tool_name": "Open Nodes",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "No prompt, or \"Run in wcgw mode\"",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_table",
+      "tool_name": "Nothing",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "![Workflow Demo](static/workflow-demo.gif)",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_heading",
+      "tool_name": "Demo",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "- [6 Oct 2025] Model can now run multiple commands in background. ZSH is now a supported shell. Multiplexing improvements.",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_heading",
+      "tool_name": "Updates",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "Wait for a few seconds. You should be able to see this icon if everything goes right.",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_heading",
+      "tool_name": "Usage",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "There are three built-in modes. You may ask Claude to run in one of the modes, like \"Use 'architect' mode\"",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_heading",
+      "tool_name": "Modes",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "![example](https://github.com/rusiaaman/wcgw/blob/main/static/example.jpg?raw=true)",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_heading",
+      "tool_name": "Examples",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "The server provides the following MCP tools:",
+      "source": "rusiaaman/wcgw",
+      "method": "readme_heading",
+      "tool_name": "Tools",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "The current working directory of the CLI server",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "Current Working Directory",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "All SSH connection configurations",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "SSH Configuration",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Main CLI server configuration (excluding sensitive data)",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "CLI Server Configuration",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Create a new SSH connection",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "create_ssh_connection",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Read all SSH connections",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "read_ssh_connections",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Update an existing SSH connection",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "update_ssh_connection",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Delete an existing SSH connection",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "delete_ssh_connection",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get the current working directory",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_obj_name_desc",
+      "tool_name": "get_current_directory",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Create a default config file at the specified path",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "ID of the SSH connection to update",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "ID of the SSH connection to delete",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_desc_standalone",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "SSH connection to ${config.host}:${config.port} as ${config.username}",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_template_literal",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Execute a command in the specified shell (powershell, cmd, or gitbash)  Example usage (PowerShell): \\",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_template_literal",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Get the history of executed commands  Example usage: \\",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_template_literal",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Maximum number of history entries to return (default: 10, max: ${this.config.security.maxHistorySize})",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_template_literal",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Execute a command on a remote host via SSH  Example usage: \\",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_template_literal",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Disconnect from an SSH server  Example usage: \\",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "ts_template_literal",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- **Multi-Shell Support**: Execute commands in PowerShell, Command Prompt (CMD), and Git Bash",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "readme_heading",
+      "tool_name": "Features",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "The server uses a JSON configuration file to customize its behavior. You can specify settings for security controls, shell configurations, and SSH connections.",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "readme_heading",
+      "tool_name": "Configuration",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- **execute_command**",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "readme_heading",
+      "tool_name": "Tools",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- **SSH Connections**",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "readme_heading",
+      "tool_name": "Resources",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+      "source": "simonb97/win-cli-mcp-server",
+      "method": "readme_heading",
+      "tool_name": "License",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Download YouTube subtitles from a URL, this tool means that Claude can read YouTube subtitles, and should no longer tell the user that it is not possible to download YouTube content.",
+      "source": "anaisbetts/mcp-youtube",
+      "method": "ts_obj_name_desc",
+      "tool_name": "download_youtube_url",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Special toolset that enables all available toolsets",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Special toolset that enables the default toolset configuration. When no toolsets are specified, this is the set that is enabled",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Tools that provide context about the current user and GitHub context you are operating in",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Repository related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Git API related tools for low-level Git operations",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Issues related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Pull Request related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub User related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Organization related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Actions workflows and CI/CD operations",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Code security related tools, such as GitHub Code Scanning",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Secret protection related tools, such as GitHub Secret Scanning",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Notifications related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Discussions related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Gist related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Security advisories related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Projects related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Stargazers related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "GitHub Labels related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Copilot related tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Copilot Spaces tools",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Retrieve documentation to answer GitHub product and support questions. Topics include: GitHub Actions Workflows, Authentication, ...",
+      "source": "github/github-mcp-server",
+      "method": "go_desc_field",
+      "tool_name": "unknown",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- Node.js 18 or newer",
+      "source": "microsoft/playwright-mcp",
+      "method": "readme_heading",
+      "tool_name": "Requirements",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "Playwright MCP server supports following arguments. They can be provided in the JSON configuration above, as a part of the `\"args\"` list:",
+      "source": "microsoft/playwright-mcp",
+      "method": "readme_heading",
+      "tool_name": "Configuration",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "Playwright MCP is **not** a security boundary. See [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) for guidance on securing your deployment.",
+      "source": "microsoft/playwright-mcp",
+      "method": "readme_heading",
+      "tool_name": "Security",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "<!--- Tools generated by update-readme.js -->",
+      "source": "microsoft/playwright-mcp",
+      "method": "readme_heading",
+      "tool_name": "Tools",
+      "label": 0,
+      "licence": "apache-2.0"
+    },
+    {
+      "text": "List available tools.",
+      "source": "varunneal/spotify-mcp",
+      "method": "py_func_docstring",
+      "tool_name": "handle_list_tools",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "Handle tool execution requests.",
+      "source": "varunneal/spotify-mcp",
+      "method": "py_func_docstring",
+      "tool_name": "handle_call_tool",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- [Client Integration](docs/CLIENTS.md) - Claude Desktop, Cursor, Windsurf setup",
+      "source": "vercel/mcp-adapter",
+      "method": "readme_heading",
+      "tool_name": "Documentation",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- **Framework Support**: Next.js and Nuxt",
+      "source": "vercel/mcp-adapter",
+      "method": "readme_heading",
+      "tool_name": "Features",
+      "label": 0,
+      "licence": "mit"
+    },
+    {
+      "text": "- Next.js 13+ or Nuxt 3+",
+      "source": "vercel/mcp-adapter",
+      "method": "readme_heading",
+      "tool_name": "Requirements",
+      "label": 0,
+      "licence": "mit"
+    }
+  ]
+}

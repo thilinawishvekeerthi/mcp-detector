@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-05-27T08:54:29.128691Z",
+  "collection": {
+    "script": "collect_mcp_descriptions.py",
+    "script_sha256": "a4d5c6972c1b5bd9c524200480a68d57d4ba8aa418dc1f75ac7771a34d5f5a3e",
+    "pinned_commit_awesome_mcp_servers": "543bca6d75d7548d702dbb9fcf30d6055fde7e3d",
+    "awesome_mcp_servers_url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "collection_date": "2026-05-27",
+    "repos_evaluated": 2491,
+    "repos_kept": 2002,
+    "repos_skipped": {
+      "skipped:license=NOASSERTION": 100,
+      "skipped:license=GPL-3.0": 42,
+      "skipped:license=AGPL-3.0": 34,
+      "skipped:no_license": 286,
+      "skipped:license=MPL-2.0": 16,
+      "skipped:license=LGPL-3.0": 3,
+      "skipped:license=EPL-2.0": 1,
+      "skipped:license=EUPL-1.2": 1,
+      "clone_failed": 1,
+      "skipped:license=CC-BY-SA-4.0": 2,
+      "skipped:license=WTFPL": 1,
+      "skipped:license=MulanPSL-2.0": 1,
+      "skipped:license=Unlicense": 1
+    },
+    "total_descriptions_extracted": 102761
+  },
+  "files": {
+    "descriptions.jsonl": {
+      "path": "/Users/thilina/Documents/SUBMITED/ieee-access/mcp-github-rip-script/out/descriptions.jsonl",
+      "size_bytes": 67843697,
+      "sha256": "623179b3452b159ce1ce5f3efc961a64c57ce465d307fe2b10f2997df359f190",
+      "lines": 102761
+    },
+    "descriptions.txt": {
+      "path": "/Users/thilina/Documents/SUBMITED/ieee-access/mcp-github-rip-script/out/descriptions.txt",
+      "size_bytes": 33325699,
+      "sha256": "4a8857af66a4c2ab21f83d2993d59b00d1493b8a922554c32fd7f6a240fbdaa8",
+      "lines": 644772
+    },
+    "manifest.json": {
+      "path": "/Users/thilina/Documents/SUBMITED/ieee-access/mcp-github-rip-script/out/manifest.json",
+      "size_bytes": 821367,
+      "sha256": "ecbfe288c6d83a6b3545ffc6268f345b2703ea64c3841570e72c80a1af9a9f64"
+    },
+    "collection.log": {
+      "path": "/Users/thilina/Documents/SUBMITED/ieee-access/mcp-github-rip-script/collection.log",
+      "size_bytes": 22668081,
+      "sha256": "94c69909a2878b3879eee37e541996532939b73e6622ba2c97121a7845fd7baf",
+      "lines": 249306
+    },
+    "PINNED_COMMIT.txt": {
+      "path": "/Users/thilina/Documents/SUBMITED/ieee-access/mcp-github-rip-script/PINNED_COMMIT.txt",
+      "size_bytes": 41,
+      "sha256": "d1dc494922bc86ce223bf2592a47a4a882d5b29f2d85548345032db9f22230ce",
+      "lines": 1
+    },
+    "mcp_benign_real_world.csv": {
+      "path": "/Users/thilina/Documents/SUBMITED/mcp-prompt-injection-detector/McpPromptInjectionEvaluationIEEE/mcp_benign_real_world.csv",
+      "size_bytes": 31115278,
+      "sha256": "f451529c04463d2ae548713345cba979f9410b9026bd5715666382d7894db2af",
+      "rows": 125638
+    },
+    "mcp_benign_real_world_train.csv": {
+      "path": "/Users/thilina/Documents/SUBMITED/mcp-prompt-injection-detector/McpPromptInjectionEvaluationIEEE/mcp_benign_real_world_train.csv",
+      "size_bytes": 1543730,
+      "sha256": "fe0ccd3a29e8e73f62a63cd2f83b8b1734abdd2a62f925dc574057af59bd7f86",
+      "rows": 6156
+    },
+    "mcp_benign_realworld_holdout.csv": {
+      "path": "/Users/thilina/Documents/SUBMITED/mcp-prompt-injection-detector/McpPromptInjectionEvaluationIEEE/mcp_benign_realworld_holdout.csv",
+      "size_bytes": 29571279,
+      "sha256": "6de151f3025acac161aca8b05892667515fd2f825e217f183217f8cb775a06b1",
+      "rows": 119482
+    },
+    "mcpcorpus_english_holdout.csv": {
+      "path": "/Users/thilina/Documents/SUBMITED/mcp-prompt-injection-detector/McpPromptInjectionEvaluationIEEE/mcpcorpus_english_holdout.csv",
+      "size_bytes": 21763,
+      "sha256": "0c7ba8274bdace675f99294a7f1b34953ab268ee5a897ff1bbaa2576f1c40509",
+      "rows": 94
+    }
+  }
+}

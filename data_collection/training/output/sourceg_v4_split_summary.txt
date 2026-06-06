@@ -1,0 +1,47 @@
+=== Fine-tuning holdout split (v2 -- row cap) ===
+Generated              : 2026-05-29 14:30:19
+Random seed            : 42
+Max rows/repo holdout  : 50
+
+Input  : mcp_benign_realworld_holdout_CLEAN.csv  (97,621 rows, 1588 repos)
+Output :
+  pass1_finetune_holdout.csv     (5,060 rows, 154 repos)
+  pass1_finetune_train_pool.csv  (92,561 rows, 1503 repos)
+  Repos appearing in both (capped large repos): 69
+
+Per-stratum breakdown:
+  #1 Short imperative        target= 1000  actual= 1037  repos=  26  capped= 17  (104%)
+  #2 Action verb heavy       target= 1000  actual= 1000  repos=  30  capped= 13  (100%)
+  #3 Non-Western brand       target=  500  actual=  505  repos=  13  capped=  8  (101%)
+  #4 Generate/transform      target=  500  actual=  512  repos=  17  capped=  7  (102%)
+  #5 Long descriptive        target= 1000  actual= 1002  repos=  27  capped= 13  (100%)
+  #6 Random remainder        target= 1000  actual= 1004  repos=  41  capped= 11  (100%)
+
+Verification checks:
+  V1  (no eval text overlap) : PASS
+  V2  (no row overlap)       : PASS
+  V2b (repo overlap count)   : 69 repos (capped, expected)
+  V3  (row count sums)       : PASS
+  V4  (stratum coverage)     : PASS
+
+First 20 holdout repos:
+  https://github.com/34892002/bilibili-mcp-js
+  https://github.com/AgentDeskAI/browser-tools-mcp
+  https://github.com/AutomateLab-tech/content-distribution-mcp
+  https://github.com/BloopAI/vibe-kanban
+  https://github.com/Chronolapse411/sicarius-guard
+  https://github.com/ClickHouse/mcp-clickhouse
+  https://github.com/Connectry-io/connectrylab-architect-cert-mcp
+  https://github.com/Couchbase-Ecosystem/mcp-server-couchbase
+  https://github.com/D4Vinci/Scrapling
+  https://github.com/DomDemetz/claude-soul
+  https://github.com/EthanQC/feishu-user-plugin
+  https://github.com/Evan-Crx/permisapi-mcp
+  https://github.com/Fabio662/yieldagentx402-sdks
+  https://github.com/Fund-z/fundzwatch-mcp
+  https://github.com/Hmbown/CodeWhale
+  https://github.com/James-Chahwan/repo-graph
+  https://github.com/Klavis-AI/klavis
+  https://github.com/Kzino/vorim-mcp-server
+  https://github.com/LeonTing1010/tap
+  https://github.com/MohamedAbdallah-14/prompt-to-asset

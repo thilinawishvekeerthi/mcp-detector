@@ -1,0 +1,63 @@
+{
+  "evaluation_date": "2026-05-26",
+  "model": "MCP Detector (XGB + all-mpnet-base-v2, Platt-calibrated)",
+  "threshold": 0.3800000000000001,
+  "overall": {
+    "n": 154,
+    "n_benign": 92,
+    "n_malicious": 62,
+    "AUC": 0.7635,
+    "AP": 0.6767,
+    "F1": 0.6316,
+    "Precision": 0.5915,
+    "Recall": 0.6774,
+    "Accuracy": 0.6818,
+    "FPR": 0.3152,
+    "FNR": 0.3226,
+    "TP": 42,
+    "TN": 63,
+    "FP": 29,
+    "FN": 20,
+    "avg_latency_ms": 6.03
+  },
+  "per_payload_type": {
+    "base64_partial": {
+      "n": 10,
+      "Recall": 0.9,
+      "ASR": 0.1
+    },
+    "direct_override": {
+      "n": 11,
+      "Recall": 0.3636,
+      "ASR": 0.6364
+    },
+    "exfiltration": {
+      "n": 11,
+      "Recall": 0.6364,
+      "ASR": 0.3636
+    },
+    "leetspeak": {
+      "n": 10,
+      "Recall": 0.6,
+      "ASR": 0.4
+    },
+    "mathematical": {
+      "n": 10,
+      "Recall": 0.7,
+      "ASR": 0.3
+    },
+    "role_injection": {
+      "n": 10,
+      "Recall": 0.9,
+      "ASR": 0.1
+    }
+  },
+  "real_benign_fpr": 0.3152,
+  "synthetic_comparison": {
+    "AUC": 0.9155,
+    "Recall": 0.8039,
+    "Precision": 0.7675,
+    "F1": 0.7853,
+    "FPR": 0.156
+  }
+}

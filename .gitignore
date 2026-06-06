@@ -1,0 +1,110 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# .gitignore — MCP Detector (IEEE Access submission)
+# Keep: canonical model + scripts + evaluation holdouts + notebook v6.2
+# Exclude: old versions, large CSVs (→ Zenodo/HuggingFace), internal session files
+# ═══════════════════════════════════════════════════════════════════════════════
+
+#AI
+.claude
+.wolf
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Word lock files ───────────────────────────────────────────────────────────
+~$*.docx
+~$*.doc
+~$*.xlsx
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+
+# ── Jupyter checkpoints ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ══════════════════════════════════════════════════════════════════════════════
+# INTERNAL SESSION / RESEARCH FILES — not for public release
+# ══════════════════════════════════════════════════════════════════════════════
+CLAUDE.md
+CLAUDE_SESSION.md
+PROJECT_LOG.md
+SENIOR_RESEARCHER.md
+reseach-lead-consultation/
+notebook_cells/
+install_nvm.sh
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PAPER DRAFTS — separate submission, not in code repo
+# ══════════════════════════════════════════════════════════════════════════════
+paper/
+
+# ══════════════════════════════════════════════════════════════════════════════
+# OLD NOTEBOOK VERSIONS — only train_v6.2_ieee.ipynb is canonical
+# ══════════════════════════════════════════════════════════════════════════════
+notebook/train_v1.ipynb
+notebook/train_v2_ieee.ipynb
+notebook/train_v4_ieee.ipynb
+notebook/train_v5_ieee.ipynb
+notebook/train_v6_ieee.ipynb
+notebook/train_v6.1_ieee.ipynb
+notebook/train_v6.2ieee.ipynb
+
+# ══════════════════════════════════════════════════════════════════════════════
+# OLD MODEL VERSIONS — keep only mcp_detector_calibrated.pkl (latest, t=0.395)
+# ══════════════════════════════════════════════════════════════════════════════
+model/mcp_detector_calibrated_.pkl
+model/mcp_detector_calibrated_v6.1.pkl
+model/mcp_detector_calibrated_v3.1.pkl
+model/mcp_detector_calibrated_v4_data_only.pkl
+model/mcp_detector_calibrated_v5.pkl
+model/mcp_detector_threshold_.json
+model/mcp_detector_threshold_v3.1.json
+model/mcp_detector_threshold_v4_data_only.json
+model/mcp_detector_threshold_v5.json
+model/mcp_scaler_.pkl
+model/mcp_scaler_v3.1.pkl
+model/mcp_scaler_v4_data_only.pkl
+model/mcp_scaler_v5.pkl
+
+# ══════════════════════════════════════════════════════════════════════════════
+# LARGE DATA FILES — too large for GitHub (>10 MB)
+# Release via Zenodo / HuggingFace; reference URL in README
+# ══════════════════════════════════════════════════════════════════════════════
+data_collection/training/output/mcp_benign_real_world.csv
+data_collection/training/output/mcp_benign_real_world_train.csv
+data_collection/training/output/mcp_benign_real_world_train_v3.csv
+data_collection/training/output/mcp_benign_realworld_holdout.csv
+data_collection/training/output/mcp_benign_realworld_holdout_CLEAN.csv
+data_collection/training/output/descriptions.jsonl
+data_collection/training/output/descriptions.txt
+
+# Raw MCPCorpus JSON — downloaded at eval time by evaluate_mcpcorpus_fpr.py
+evaluation/results/mcpso_servers_cleaned.json
+
+# Investigation debug artifacts (binary pickles)
+data_collection/investigation/
+
+# Collection log (verbose runtime output)
+data_collection/training/collection.log
+
+# Old adversarial pilot files
+data_collection/training/adversarial/adversarial_train_pilot.csv
+data_collection/training/adversarial/adversarial_val_set_pilot.csv
